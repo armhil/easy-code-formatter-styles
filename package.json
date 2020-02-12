@@ -1,0 +1,28 @@
+{
+  "name": "easy-code-formatter-styles",
+  "version": "1.0.0",
+  "description": "a package which contains the styling details for easy code formatter office app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armhil/easy-code-formatter-styles.git"
+  },
+  "keywords": [
+    "syntax",
+    "highlighting",
+    "code",
+    "format",
+    "prettify",
+    "office-add-in",
+    "office-js"
+  ],
+  "author": "armhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armhil/easy-code-formatter-styles/issues"
+  },
+  "homepage": "https://github.com/armhil/easy-code-formatter-styles#readme"
+}
