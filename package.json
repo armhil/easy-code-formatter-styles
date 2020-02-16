@@ -1,11 +1,8 @@
 {
   "name": "easy-code-formatter-styles",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a package which contains the styling details for easy code formatter office app.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armhil/easy-code-formatter-styles.git"
