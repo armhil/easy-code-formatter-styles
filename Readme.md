@@ -12,7 +12,7 @@ Once merged to master, it'll be built and published to npm and deployed afterwar
 
 Easy code formatter is a Microsoft Word add-in that allows people to style their text in word as code. You'll have to be at least on Word 2013 to use this addin.
 
-You can download it from [AppSource].(https://appsource.microsoft.com/en/product/office/WA104382008?tab=Overview)
+You can download it from [AppSource](https://appsource.microsoft.com/en/product/office/WA104382008?tab=Overview).
 
 An example code input             |  Formatted code with `Default` style.
 :-------------------------:|:-------------------------:
