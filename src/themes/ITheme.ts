@@ -5,50 +5,54 @@
  */
 interface ICodeStyle {
 
-	// Keyword styles in code
+	/** Keyword styles in code */
 	Keyword: string,
 
-	// Comment styles in code
+	/** Comment styles in code */
 	Comment: string,
 
-	// Plaintext styles in code
+	/** Plaintext styles in code */
 	Plaintext: string,
 
-	// Punctuation styles in code
+	/** Punctuation styles in code */
 	Punctuation: string,
 
-	// String styles in code
+	/** String styles in code */
 	String: string,
-		
-	// Literal styles in code
+
+	/** Literal styles in code */
 	Literal: string,
 
-	// Type styles in code
+	/** Type styles in code */
 	Type: string,
 
-	// Tag styles in code
+	/** Tag styles in code */
 	Tag?: string,
 
-	// Attribute name styles in code
+	/** Attribute name styles in code */
 	AttributeName?: string,
 
-	// Attribute value styles in code
+	/** Attribute value styles in code */
 	AttributeValue?: string,
 
-	// Decimal styles in code
+	/** Decimal styles in code */
 	Decimal?: string,
 
-	// No code styles in code
+	/** No code styles in code */
 	NoCode?: string
 }
 
 export interface ITheme {
-	// Code styles
+
+	/** Display name */
+	DisplayName: string,
+
+	/** Code styles */
 	CodeStyles : ICodeStyle,
 
-	// Background styles
+	/** Background styles */
 	BackgroundStyle: string,
 
-	// Line number styles
+	/** Line number styles */
 	LineNumberStyle: string
 }

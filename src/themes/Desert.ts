@@ -1,6 +1,9 @@
 import { ITheme } from "./ITheme";
 
 export const Desert : ITheme = {
+
+	DisplayName: 'Desert',
+
 	CodeStyles: {
 		Keyword: 'color:#f0e68c',
 		Comment: 'color:#87ceeb',

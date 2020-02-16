@@ -2,7 +2,8 @@ import { ITheme } from "./ITheme";
 
 export const Default : ITheme = {
 
-	// Code styles
+	DisplayName: 'Default',
+
 	CodeStyles: {
 		Keyword: 'color:#008',
 		Comment: 'color:#800',
@@ -13,9 +14,7 @@ export const Default : ITheme = {
 		Type: 'color:#606'
 	},
 
-	// Background style
 	BackgroundStyle: '',
 
-	// Line number style
 	LineNumberStyle: ''
 };

@@ -1,6 +1,9 @@
 import { ITheme } from "./ITheme";
 
 export const Sunburst : ITheme = {
+
+	DisplayName: 'Sunburst',
+
 	CodeStyles: {
 		Keyword: 'color:#e28964',
 		Comment: '#aeaeae;font-style:italic;',
@@ -16,9 +19,7 @@ export const Sunburst : ITheme = {
 		NoCode: 'color: #000;background-color:none;'
 	},
 
-	// Background styles
 	BackgroundStyle: 'background-color:#000;',
 
-	// Line number styles
 	LineNumberStyle: 'color:white'
 }
