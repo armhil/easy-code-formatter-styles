@@ -6,7 +6,7 @@ export const Sunburst : ITheme = {
 
 	CodeStyles: {
 		Keyword: 'color:#e28964',
-		Comment: '#aeaeae;font-style:italic;',
+		Comment: 'color:#aeaeae;font-style:italic;',
 		Plaintext: 'color:#fff',
 		Punctuation: 'color:#fff',
 		String: 'color:#65b042',
