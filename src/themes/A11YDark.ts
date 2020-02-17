@@ -1,8 +1,8 @@
 import { ITheme } from "./ITheme";
 
-export const Desert : ITheme = {
+export const A11YDark : ITheme = {
 
-	DisplayName: 'Desert',
+	DisplayName: 'A11YDark',
 
 	CodeStyles: {
 		Keyword: 'color:#DCC6E0',
