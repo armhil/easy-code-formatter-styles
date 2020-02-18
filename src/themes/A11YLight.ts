@@ -23,5 +23,5 @@ export const A11YLight : ITheme = {
 	BackgroundStyle: 'background-color:#fefefe;',
 
 	// Line number background colors
-	LineNumberStyle: 'color:white'
+	LineNumberStyle: 'color:#000000'
 }
