@@ -10,5 +10,5 @@ export default
 	Desert,
 	Sunburst,
 	A11YDark,
-  A11Light
+	A11YLight
 };
