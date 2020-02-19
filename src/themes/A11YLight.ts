@@ -5,7 +5,7 @@ export const A11YLight : ITheme = {
 	DisplayName: 'A11YLight',
 
 	CodeStyles: {
-		Keyword: 'color:#792a1',
+		Keyword: 'color:#7928a1',
 		Comment: 'color:#696969',
 		Plaintext: 'color:#545454',
 		Punctuation: 'color:#545454',
