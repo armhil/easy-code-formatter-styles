@@ -6,9 +6,9 @@ import { A11YLight } from './themes/A11YLight';
 
 export default
 {
-	Default,
-	Desert,
-	Sunburst,
-	A11YDark,
-	A11YLight
+	Default : Default,
+	Desert : Desert,
+	Sunburst : Sunburst,
+	A11YDark : A11YDark,
+	A11YLight: A11YLight
 };
