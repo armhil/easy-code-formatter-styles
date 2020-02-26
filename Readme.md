@@ -18,6 +18,11 @@ Easy code formatter is a Microsoft Word add-in that allows people to style their
 
 You can download it from [AppSource](https://appsource.microsoft.com/en/product/office/WA104382008?tab=Overview).
 
-An example code input | Formatted code with `Default` style.
+Formatted code with `Default` style. | with `Desert style`
 :-------------------------:|:-------------------------:
-![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/screenshot-1.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/screenshot-2.png)
+![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/default.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/desert.png)
+
+
+Formatted code with `A11YDark` style. | with `A11YLight style`
+:-------------------------:|:-------------------------:
+![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/a11ydark.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/a11ylight.png)
