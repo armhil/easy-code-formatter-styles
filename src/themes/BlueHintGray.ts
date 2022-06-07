@@ -2,7 +2,7 @@ import { ITheme } from "./ITheme";
 
 export const BlueHintGray : ITheme = {
 
-	DisplayName: 'BlueHintGray',
+	DisplayName: 'Blue Hint Gray',
 
 	CodeStyles: {
 		Keyword: 'color:#0000ff',
