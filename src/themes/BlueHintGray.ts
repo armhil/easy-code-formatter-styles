@@ -7,8 +7,8 @@ export const BlueHintGray : ITheme = {
 	CodeStyles: {
 		Keyword: 'color:#0000ff',
 		Comment: 'color:#008000',
-		Plaintext: 'color:#fff',
-		Punctuation: 'color:#fff',
+		Plaintext: 'color:#000',
+		Punctuation: 'color:#000',
 		String: 'color:#a31515',
 		Literal: 'color:#066',
 		Type: 'color:#2b91af',
