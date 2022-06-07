@@ -6,6 +6,7 @@ import { A11YDark } from './themes/A11YDark';
 import { A11YLight } from './themes/A11YLight';
 import { AtelierCaveLight } from './themes/AtelierCaveLight';
 import { AtelierCaveDark } from './themes/AtelierCaveDark';
+import { BlueHintGray } from  "./themes/BlueHintGray";
 
 export default
 {
@@ -16,5 +17,6 @@ export default
 	A11YDark : A11YDark,
 	A11YLight: A11YLight,
 	AtelierCaveLight: AtelierCaveLight,
-	AtelierCaveDark: AtelierCaveDark
+	AtelierCaveDark: AtelierCaveDark,
+	BlueHintGray: BlueHintGray
 };
