@@ -27,6 +27,9 @@ jobs:
         uses: actions/setup-node@v3.3.0
       - run: npm ci
       - run: npm test
+      # Typescript build
+      - name: tsc
+        uses: icrawl/action-tsc@v1
       # Publish NPM package
       - uses: JS-DevTools/npm-publish@v1
         with:
