@@ -1,5 +1,7 @@
 # easy-code-formatter-styles
 
+[![Main CI | Build, Test and NPM Publish](https://github.com/armhil/easy-code-formatter-styles/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/armhil/easy-code-formatter-styles/actions/workflows/main.yml)
+
 Since the original release of [Easy Code Formatter](https://appsource.microsoft.com/en/product/office/WA104382008?tab=Overview), I've received a lot of requests around extending the support for the styles and this is an attempt to do that.
 
 Bumping `package.json` version automatically is not there yet, so make sure your Pull Request includes a version bump.
