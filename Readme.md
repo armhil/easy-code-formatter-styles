@@ -1,7 +1,5 @@
 # easy-code-formatter-styles
 
-[![Build Status](https://dev.azure.com/charmingaddins/easy-code-formatter-styles/_apis/build/status/easy-code-formatter-styles-CI?branchName=master)](https://dev.azure.com/charmingaddins/easy-code-formatter-styles/_build/latest?definitionId=10&branchName=master)
-
 Since the original release of [Easy Code Formatter](https://appsource.microsoft.com/en/product/office/WA104382008?tab=Overview), I've received a lot of requests around extending the support for the styles and this is an attempt to do that.
 
 Bumping `package.json` version automatically is not there yet, so make sure your Pull Request includes a version bump.
