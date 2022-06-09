@@ -1,20 +1,38 @@
 import { ITheme } from "./ITheme";
 
 export const DefaultGray : ITheme = {
-
+	/** Display name */
 	DisplayName: 'Default (with Gray background)',
-
+	/** Code styles */
 	CodeStyles: {
-		Keyword: 'color:#008',
-		Comment: 'color:#800',
-		Plaintext: 'color:#000',
-		Punctuation: 'color:#660',
-		String: 'color:#080',
-		Literal: 'color:#066',
-		Type: 'color:#606'
+		Keyword: {
+			Color: '008'
+		},
+		Comment: {
+			Color: '800'
+		},
+		Plaintext: {
+			Color: '000'
+		},
+		Punctuation: {
+			Color: '660'
+		},
+		String: {
+			Color: '080'
+		},
+		Literal: {
+			Color: '066'
+		},
+		Type: {
+			Color: '606'
+		}
 	},
-
-	BackgroundStyle: 'background-color:#ececec;',
-
-	LineNumberStyle: ''
+	// Background color
+	BackgroundStyle: {
+		BackgroundColor: 'ececec'
+	},
+	// Line number background colors
+	LineNumberStyle: {
+		Background: 'none'
+	}
 };

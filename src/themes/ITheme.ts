@@ -3,56 +3,55 @@
  * 
  * an interface defining the styling.
  */
-interface ICodeStyle {
 
+export interface IStyle {
+	[key: string]: string,
+	/** Color */
+	Color?: string,
+	/** Background color */
+	BackgroundColor?: string,
+	/** Font weight */
+	FontWeight?: string,
+	/** Font style */
+	FontStyle?: string
+}
+
+export interface ICodeStyle {
+	[key: string]: IStyle,
 	/** Keyword styles in code */
-	Keyword: string,
-
+	Keyword: IStyle,
 	/** Comment styles in code */
-	Comment: string,
-
+	Comment: IStyle,
 	/** Plaintext styles in code */
-	Plaintext: string,
-
+	Plaintext: IStyle,
 	/** Punctuation styles in code */
-	Punctuation: string,
-
+	Punctuation: IStyle,
 	/** String styles in code */
-	String: string,
-
+	String: IStyle,
 	/** Literal styles in code */
-	Literal: string,
-
+	Literal: IStyle,
 	/** Type styles in code */
-	Type: string,
-
+	Type: IStyle,
 	/** Tag styles in code */
-	Tag?: string,
-
+	Tag?: IStyle,
 	/** Attribute name styles in code */
-	AttributeName?: string,
-
+	AttributeName?: IStyle,
 	/** Attribute value styles in code */
-	AttributeValue?: string,
-
+	AttributeValue?: IStyle,
 	/** Decimal styles in code */
-	Decimal?: string,
-
+	Decimal?: IStyle,
 	/** No code styles in code */
-	NoCode?: string
+	NoCode?: IStyle
 }
 
 export interface ITheme {
-
+	[key: string]: ICodeStyle | IStyle | string,
 	/** Display name */
 	DisplayName: string,
-
 	/** Code styles */
 	CodeStyles : ICodeStyle,
-
 	/** Background styles */
-	BackgroundStyle: string,
-
+	BackgroundStyle: IStyle,
 	/** Line number styles */
-	LineNumberStyle: string
+	LineNumberStyle: IStyle
 }

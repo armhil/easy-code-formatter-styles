@@ -1,27 +1,56 @@
 import { ITheme } from "./ITheme";
 
 export const Desert : ITheme = {
-
+	/** Display name */
 	DisplayName: 'Desert',
-
+	/** Code styles */
 	CodeStyles: {
-		Keyword: 'color:#f0e68c',
-		Comment: 'color:#87ceeb',
-		Plaintext: 'color:#fff',
-		Punctuation: 'color:#fff',
-		String: 'color:#ffa0a0',
-		Literal: 'color:#cd5c5c',
-		Type: 'color:#98fb98',
-		Tag: 'color:#f0e68c',
-		AttributeName: 'color:#bdb76b;font-weight:bold',
-		AttributeValue: 'color:#ffa0a0',
-		Decimal: 'color:#98fb98',
-		NoCode: 'color:#000;background-color:none;'
+		Keyword: {
+			Color: 'f0e68c' 
+		},
+		Comment: {
+			Color: '87ceeb'
+		},
+		Plaintext: {
+			Color: 'fff'
+		},
+		Punctuation: {
+			Color: 'fff'
+		},
+		String: {
+			Color: 'ffa0a0'
+		},
+		Literal: {
+			Color: 'cd5c5c'
+		},
+		Type: {
+			Color: '98fb98'
+		},
+		Tag: {
+			Color: 'f0e68c'
+		},
+		AttributeName: {
+			Color: 'bdb76b',
+			FontWeight: 'bold'
+		},
+		AttributeValue: {
+			Color: 'ffa0a0'
+		},
+		Decimal: {
+			Color: '98fb98'
+		},
+		NoCode: {
+			Color: '000',
+			BackgroundColor: 'none'
+		}
 	},
-
 	// Background color
-	BackgroundStyle: 'background-color:#333;',
-
+	BackgroundStyle: {
+		BackgroundColor: '333'
+	},
 	// Line number background colors
-	LineNumberStyle: 'color:white'
+	LineNumberStyle: {
+		Color: 'fff',
+		Background: 'none'
+	}
 }
