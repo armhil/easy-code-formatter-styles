@@ -31,7 +31,7 @@ jobs:
       - name: tsc
         uses: icrawl/action-tsc@v1
         with:
-          build: true
+          build: 
       # Publish NPM package
       - uses: JS-DevTools/npm-publish@v1
         with:
