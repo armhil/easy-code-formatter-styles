@@ -28,10 +28,8 @@ jobs:
       - run: npm ci
       - run: npm test
       # Typescript build
-      - name: tsc
-        uses: icrawl/action-tsc@v1
-        with:
-          build: 
+      - name: TypeScript build
+        uses: FuLagann/tsc-build-push@v1
       # Publish NPM package
       - uses: JS-DevTools/npm-publish@v1
         with:
