@@ -50,7 +50,7 @@ export const AtelierCaveLight : ITheme = {
 	},
 	// Line number background colors
 	LineNumberStyle: {
-		Color: 'AEB0B3',
+		Color: 'aeb0b3',
 		Background: 'none'
 	}
 }
