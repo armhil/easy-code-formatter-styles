@@ -50,6 +50,7 @@ export const A11YDark : ITheme = {
 	},
 	// Line number background colors
 	LineNumberStyle: {
-		Color: 'fff'
+		Color: 'fff',
+		Background: 'none'
 	}
 }

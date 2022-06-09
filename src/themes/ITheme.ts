@@ -4,7 +4,8 @@
  * an interface defining the styling.
  */
 
-interface IStyle {
+export interface IStyle {
+	[key: string]: string,
 	/** Color */
 	Color?: string,
 	/** Background color */
@@ -15,7 +16,8 @@ interface IStyle {
 	FontStyle?: string
 }
 
-interface ICodeStyle {
+export interface ICodeStyle {
+	[key: string]: IStyle,
 	/** Keyword styles in code */
 	Keyword: IStyle,
 	/** Comment styles in code */

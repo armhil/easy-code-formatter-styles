@@ -30,5 +30,7 @@ export const Default : ITheme = {
 	// Background color
 	BackgroundStyle: {},
 	// Line number background colors
-	LineNumberStyle: {}
+	LineNumberStyle: {
+		Background: 'none'
+	}
 };

@@ -32,5 +32,7 @@ export const DefaultGray : ITheme = {
 		BackgroundColor: 'ececec'
 	},
 	// Line number background colors
-	LineNumberStyle: {}
+	LineNumberStyle: {
+		Background: 'none'
+	}
 };

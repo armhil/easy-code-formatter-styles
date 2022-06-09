@@ -50,6 +50,7 @@ export const Sunburst : ITheme = {
 	},
 	// Line number background colors
 	LineNumberStyle: {
-		Color: 'fff'
+		Color: 'fff',
+		Background: 'none'
 	}
 }
