@@ -30,6 +30,8 @@ jobs:
       # Typescript build
       - name: tsc
         uses: icrawl/action-tsc@v1
+        with:
+          build: true
       # Publish NPM package
       - uses: JS-DevTools/npm-publish@v1
         with:
