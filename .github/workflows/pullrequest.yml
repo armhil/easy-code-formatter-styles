@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Continuous Build/Test/NPM Publish
 
 # Controls when the workflow will run
 on:
@@ -24,8 +24,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+
       # Test using node
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.3.0
       - run: npm ci
       - run: npm test
+      
+      # Typescript build
+      - name: Typescript compiler
+        uses: iCrawl/action-tsc@v1
+
