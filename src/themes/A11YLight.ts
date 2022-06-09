@@ -50,6 +50,7 @@ export const A11YLight : ITheme = {
 	},
 	// Line number background colors
 	LineNumberStyle: {
-		Color: '000'
+		Color: '000',
+		Background: 'none'
 	}
 }

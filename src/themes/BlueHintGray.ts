@@ -35,5 +35,7 @@ export const BlueHintGray : ITheme = {
 		BackgroundColor: 'eaeaea'
 	},
 	// Line number background colors
-	LineNumberStyle: {}
+	LineNumberStyle: {
+		Background: 'none'
+	}
 }
