@@ -1,23 +1,39 @@
 import { ITheme } from "./ITheme";
 
 export const BlueHintGray : ITheme = {
-
+	/** Display name */
 	DisplayName: 'Blue Hint Gray',
-
+	/** Code styles */
 	CodeStyles: {
-		Keyword: 'color:#0000ff',
-		Comment: 'color:#008000',
-		Plaintext: 'color:#000',
-		Punctuation: 'color:#000',
-		String: 'color:#a31515',
-		Literal: 'color:#066',
-		Type: 'color:#2b91af',
-		Tag: 'color:#2b91af',
+		Keyword: {
+			Color: '0000ff'
+		},
+		Comment: {
+			Color: '008000' 
+		},
+		Plaintext: {
+			Color: '000'
+		},
+		Punctuation: {
+			Color: '000'
+		},
+		String: {
+			Color: 'a31515'
+		},
+		Literal: {
+			Color: '066'
+		},
+		Type: {
+			Color: '2b91af'
+		},
+		Tag: {
+			Color: '2b91af'
+		},
 	},
-
 	// Background color
-	BackgroundStyle: 'background-color:#eaeaea;',
-
+	BackgroundStyle: {
+		BackgroundColor: 'eaeaea'
+	},
 	// Line number background colors
-	LineNumberStyle: ''
+	LineNumberStyle: {}
 }
