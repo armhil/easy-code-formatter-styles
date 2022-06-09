@@ -2,6 +2,16 @@ import { Themes, GetGenericStyle, GetLineNumberStyle } from '../..';
 import { GetBackgroundStyle } from '..';
 
 describe('Themes tests', () => {
+    it('lower cased formatting | checks line number styles', () => {
+        Object.keys(Themes).forEach((theme) => {
+            Object.keys(Themes[theme].LineNumberStyle).forEach((styleName) => {
+                const actual: string = Themes[theme].LineNumberStyle[styleName];
+                const expected: string = actual.toLowerCase();
+                expect(actual).toBe(expected);
+            });
+        });
+    });
+
     it('lower cased formatting | checks top level background', () => {
         Object.keys(Themes).forEach((theme) => {
             Object.keys(Themes[theme].BackgroundStyle).forEach((styleName) => {
