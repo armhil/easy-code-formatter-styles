@@ -21,7 +21,7 @@ export const A11YDark : ITheme = {
 			Color: 'abe338'
 		},
 		Literal: {
-			Color: 'f5aB35'
+			Color: 'f5ab35'
 		},
 		Type: {
 			Color: '00e0e0'
