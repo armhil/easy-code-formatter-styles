@@ -21,7 +21,7 @@ export const AtelierCaveDark : ITheme = {
 			Color: '2a9292'
 		},
 		Literal: {
-			Color: 'C07156'
+			Color: 'c07156'
 		},
 		Type: {
 			Color: 'aa573c'

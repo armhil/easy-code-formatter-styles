@@ -45,6 +45,7 @@ export interface ICodeStyle {
 }
 
 export interface ITheme {
+	[key: string]: ICodeStyle | IStyle | string,
 	/** Display name */
 	DisplayName: string,
 	/** Code styles */

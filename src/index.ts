@@ -1,4 +1,4 @@
-import { Themes } from './themes';
+import { Themes, GetGenericStyle, GetLineNumberStyle } from './themes';
 import { Fonts } from './fonts';
 
-export { Themes, Fonts };
+export { Themes, GetGenericStyle, GetLineNumberStyle, Fonts };
