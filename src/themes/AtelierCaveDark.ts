@@ -1,27 +1,55 @@
 import { ITheme } from "./ITheme";
 
 export const AtelierCaveDark : ITheme = {
-
+	/** Display name */
 	DisplayName: 'Atelier Cave Dark',
-
+	/** Code styles */
 	CodeStyles: {
-		Keyword: 'color:#955ae7',
-		Comment: 'color:#7e7887',
-		Plaintext: 'color:#333333',
-		Punctuation: 'color:#333333',
-		String: 'color:#2a9292',
-		Literal: 'color:#C07156',
-		Type: 'color:#aa573c',
-		Tag: 'color:#be4678',
-		AttributeName: 'color:#759731;font-weight:bold',
-		AttributeValue: 'color:#be4678',
-		Decimal: 'color:#aa573c',
-		NoCode: 'color:#576ddb;background-color:none;'
+		Keyword: {
+			Color: '955ae7'
+		},
+		Comment: {
+			Color: '7e7887'
+		},
+		Plaintext: {
+			Color: '333333'
+		},
+		Punctuation: {
+			Color: '333333'
+		},
+		String: {
+			Color: '2a9292'
+		},
+		Literal: {
+			Color: 'C07156'
+		},
+		Type: {
+			Color: 'aa573c'
+		},
+		Tag: {
+			Color: 'be4678'
+		},
+		AttributeName: {
+			Color: '759731',
+			FontWeight: 'bold'
+		},
+		AttributeValue: {
+			Color: 'be4678'
+		},
+		Decimal: {
+			Color: 'aa573c'
+		},
+		NoCode: {
+			Color: '576ddb',
+			BackgroundColor: 'none'
+		}
 	},
-
 	// Background color
-	BackgroundStyle: 'background-color:#19171c;',
-
+	BackgroundStyle: {
+		BackgroundColor: '19171c'
+	},
 	// Line number background colors
-	LineNumberStyle: 'color:#AEB0B3'
+	LineNumberStyle: {
+		Color: 'AEB0b3'
+	}
 }

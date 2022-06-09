@@ -1,27 +1,55 @@
 import { ITheme } from "./ITheme";
 
 export const A11YLight : ITheme = {
-
+	/** Display name */
 	DisplayName: 'A11YLight',
-
+	/** Code styles */
 	CodeStyles: {
-		Keyword: 'color:#7928a1',
-		Comment: 'color:#696969',
-		Plaintext: 'color:#545454',
-		Punctuation: 'color:#545454',
-		String: 'color:#008000',
-		Literal: 'color:#aa5d00',
-		Type: 'color:#007faa',
-		Tag: 'color:#007faa',
-		AttributeName: 'color:#aa5d00;font-weight:bold',
-		AttributeValue: 'color:#008000',
-		Decimal: 'color:#aa5d00',
-		NoCode: 'color:#000;background-color:none;'
+		Keyword: {
+			Color: '7928a1'
+		},
+		Comment: {
+			Color: '696969'
+		},
+		Plaintext: {
+			Color: '545454'
+		},
+		Punctuation: {
+			Color: '545454'
+		},
+		String: {
+			Color: '008000'
+		},
+		Literal: {
+			Color: 'aa5d00'
+		},
+		Type: {
+			Color: '007faa'
+		},
+		Tag: {
+			Color: '007faa'
+		},
+		AttributeName: {
+			Color: 'aa5d00',
+			FontWeight: 'bold'
+		},
+		AttributeValue: {
+			Color: '008000'
+		},
+		Decimal: {
+			Color: 'aa5d00'
+		},
+		NoCode: {
+			Color: '000',
+			BackgroundColor: 'none'
+		}
 	},
-
 	// Background color
-	BackgroundStyle: 'background-color:#fefefe;',
-
+	BackgroundStyle: {
+		BackgroundColor: 'fefefe'
+	},
 	// Line number background colors
-	LineNumberStyle: 'color:#000000'
+	LineNumberStyle: {
+		Color: '000'
+	}
 }

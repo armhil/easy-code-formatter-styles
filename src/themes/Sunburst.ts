@@ -1,25 +1,55 @@
 import { ITheme } from "./ITheme";
 
 export const Sunburst : ITheme = {
-
+	/** Display name */
 	DisplayName: 'Sunburst',
-
+	/** Code styles */
 	CodeStyles: {
-		Keyword: 'color:#e28964',
-		Comment: 'color:#aeaeae;font-style:italic;',
-		Plaintext: 'color:#fff',
-		Punctuation: 'color:#fff',
-		String: 'color:#65b042',
-		Literal: 'color:#cd5c5c',
-		Type: 'color:#89bdff',
-		Tag: 'color:#89bdff',
-		AttributeName: 'color:#bdb76b',
-		AttributeValue: 'color:#65b042',
-		Decimal: 'color:#3387cc',
-		NoCode: 'color: #000;background-color:none;'
+		Keyword: {
+			Color: 'e28964'
+		},
+		Comment: {
+			Color: 'aeaeae',
+			FontStyle: 'italic'
+		},
+		Plaintext: {
+			Color: 'fff'
+		},
+		Punctuation: {
+			Color: 'fff'
+		},
+		String: {
+			Color: '65b042'
+		},
+		Literal: {
+			Color: 'cd5c5c'
+		},
+		Type: {
+			Color: '89bdff'
+		},
+		Tag: {
+			Color: '89bdff'
+		},
+		AttributeName: {
+			Color: 'bdb76b'
+		},
+		AttributeValue: {
+			Color: '65b042'
+		},
+		Decimal: {
+			Color: '3387cc'
+		},
+		NoCode: {
+			Color: '000',
+			BackgroundColor: 'none'
+		}
 	},
-
-	BackgroundStyle: 'background-color:#000;',
-
-	LineNumberStyle: 'color:white'
+	// Background color
+	BackgroundStyle: {
+		BackgroundColor: '000'
+	},
+	// Line number background colors
+	LineNumberStyle: {
+		Color: 'fff'
+	}
 }
