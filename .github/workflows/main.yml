@@ -27,9 +27,11 @@ jobs:
         uses: actions/setup-node@v3.3.0
       - run: npm ci
       - run: npm test
+      - run: tsc
+        
       # Typescript build
-      - name: TypeScript build
-        uses: FuLagann/tsc-build-push@v1
+      #- name: TypeScript build
+      #  uses: FuLagann/tsc-build-push@v1
       # Publish NPM package
       - uses: JS-DevTools/npm-publish@v1
         with:
