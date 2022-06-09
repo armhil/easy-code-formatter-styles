@@ -13,13 +13,19 @@ type ThemeDictionary = { [key: string]: ITheme };
 
 function MergeStyleProperties(object: IStyle) {
 	const styleNameMap: { [key: string]: string } = {
-		'Color': 'color',
-		'BackgroundColor': 'background-color',
-		'FontWeight': 'font-weight',
-		'FontStyle': 'font-style'
+		'Color': 'color:#',
+		'Background': 'background:',
+		'BackgroundColor': 'background-color:',
+		'FontWeight': 'font-weight:',
+		'FontStyle': 'font-style:'
 	};
 
-	return Object.keys(object).reduce((p, c) => `${p};${styleNameMap[c]}:${object[c]}`);
+	return Object.keys(object).reduce((p, c) => {
+		if (c === 'BackgroundColor' && object[c] !== 'none') {
+			return `${p}background-color:#${object[c]};`;
+		}
+		return `${p}${styleNameMap[c]}${object[c]};`;
+	}, "");
 }
 
 export const Themes: ThemeDictionary = {
@@ -36,6 +42,10 @@ export const Themes: ThemeDictionary = {
 
 export function GetLineNumberStyle(theme: string) {
 	return MergeStyleProperties(Themes[theme].LineNumberStyle);
+}
+
+export function GetBackgroundStyle(theme: string) {
+	return MergeStyleProperties(Themes[theme].BackgroundStyle);
 }
 
 export function GetGenericStyle(theme: string, styleName: string) {

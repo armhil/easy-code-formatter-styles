@@ -1,4 +1,5 @@
 import { Themes, GetGenericStyle, GetLineNumberStyle } from '../..';
+import { GetBackgroundStyle } from '..';
 
 describe('Themes tests', () => {
     it('lower cased formatting | checks top level background', () => {
@@ -10,6 +11,7 @@ describe('Themes tests', () => {
             });
         });
     });
+
     it('lower cased formatting | checks generic styles', () => {
         Object.keys(Themes).forEach((theme) => {
             Object.keys(Themes[theme].CodeStyles).forEach((styleName) => {
@@ -23,14 +25,38 @@ describe('Themes tests', () => {
     });
 });
 
-describe('GetGenericStyle tests', () => {
-    it('produces the correct concatanation', () => {
-
+describe('GetLineNumberStyle tests', () => {
+    it.each([
+    ['Default', 'background:none;'],
+    ['Desert', 'color:#fff;background:none;']
+    ])
+    ('produces the correct concatanation', (theme: string, expected: string) => {
+        const actual: string = GetLineNumberStyle(theme);
+        expect(actual).toBe(expected);
     });
 });
 
-describe('GetLineNumberStyle', () => {
-    it('produces the correct concatanation', () => {
+describe('GetBackgroundStyle tests', () => {
+    it.each([
+    ['Default', ''],
+    ['Desert', 'background-color:#333;'],
+    ['DefaultGray', 'background-color:#ececec;']
+    ])
+    ('produces the correct concatanation', (theme: string, expected: string) => {
+        const actual: string = GetBackgroundStyle(theme);
+        expect(actual).toBe(expected);
+    });
+});
 
-    })
-})
+describe('GetGenericStyle tests', () => {
+    it.each([
+    ['A11YDark', 'AttributeName', 'color:#ffd700;font-weight:bold;'],
+    ['A11YDark', 'NoCode', 'color:#000;background-color:none;'],
+    ['AtelierCaveLight', 'AttributeName', 'color:#759731;font-weight:bold;'],
+    ['Sunburst', 'Comment', 'color:#aeaeae;font-style:italic;']
+    ])
+    ('produces the correct concatanation', (theme: string, styleName: string, expected: string) => {
+        const actual: string = GetGenericStyle(theme, styleName);
+        expect(actual).toBe(expected);
+    });
+});
