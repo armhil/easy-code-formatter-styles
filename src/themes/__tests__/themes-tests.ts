@@ -37,6 +37,7 @@ describe('Themes tests', () => {
 
 describe('GetLineNumberStyle tests', () => {
     it.each([
+    [undefined, ''],
     ['Default', 'background:none;'],
     ['Desert', 'color:#fff;background:none;']
     ])
@@ -48,6 +49,7 @@ describe('GetLineNumberStyle tests', () => {
 
 describe('GetBackgroundStyle tests', () => {
     it.each([
+    [undefined, ''],
     ['Default', ''],
     ['Desert', 'background-color:#333;'],
     ['DefaultGray', 'background-color:#ececec;']
@@ -60,6 +62,8 @@ describe('GetBackgroundStyle tests', () => {
 
 describe('GetGenericStyle tests', () => {
     it.each([
+    [undefined, undefined, ''],
+    ['A11YDark', undefined, ''],
     ['A11YDark', 'AttributeName', 'color:#ffd700;font-weight:bold;'],
     ['A11YDark', 'NoCode', 'color:#000;background-color:none;'],
     ['AtelierCaveLight', 'AttributeName', 'color:#759731;font-weight:bold;'],

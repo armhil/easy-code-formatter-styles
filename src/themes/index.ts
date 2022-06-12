@@ -12,6 +12,10 @@ import { BlueHintGray } from  "./BlueHintGray";
 type ThemeDictionary = { [key: string]: ITheme };
 
 function MergeStyleProperties(object: IStyle) {
+	if (!object || !Object.keys(object)) {
+		return "";
+	}
+
 	const styleNameMap: { [key: string]: string } = {
 		'Color': 'color:#',
 		'Background': 'background:',
@@ -21,8 +25,8 @@ function MergeStyleProperties(object: IStyle) {
 	};
 
 	return Object.keys(object).reduce((p, c) => {
-		if (c === 'BackgroundColor' && object[c] !== 'none') {
-			return `${p}background-color:#${object[c]};`;
+		if ((c === 'BackgroundColor' || c==='Background') && object[c] !== 'none') {
+			return `${p}${styleNameMap[c]}#${object[c]};`;
 		}
 		return `${p}${styleNameMap[c]}${object[c]};`;
 	}, "");
@@ -41,13 +45,28 @@ export const Themes: ThemeDictionary = {
 }
 
 export function GetLineNumberStyle(theme: string) {
+	if (!Themes[theme]) {
+		return "";
+	}
 	return MergeStyleProperties(Themes[theme].LineNumberStyle);
 }
 
 export function GetBackgroundStyle(theme: string) {
+	if (!Themes[theme]) {
+		return "";
+	}
 	return MergeStyleProperties(Themes[theme].BackgroundStyle);
 }
 
-export function GetGenericStyle(theme: string, styleName: string) {
+/**
+ * Returns a CSS style string for code references
+ * @param theme Defined theme we're getting the style for
+ * @param styleName Style name of the code snippet (ex: Keyword vs Punctuation)
+ * @returns string
+ */
+export function GetGenericStyle(theme: string, styleName: string): string {
+	if (!Themes[theme]) {
+		return "";
+	}
 	return MergeStyleProperties(Themes[theme].CodeStyles[styleName])
 }
