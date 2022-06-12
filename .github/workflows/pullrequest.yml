@@ -28,8 +28,5 @@ jobs:
         uses: actions/setup-node@v3.3.0
       - run: npm ci
       - run: npm test
-      
-      # Typescript build
-      - name: Typescript compiler
-        uses: iCrawl/action-tsc@v1
+      - run: tsc
 
