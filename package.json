@@ -1,6 +1,6 @@
 {
   "name": "easy-code-formatter-styles",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "a package which contains the styling details for easy code formatter office app.",
   "main": "dist/index.js",
   "repository": {
@@ -8,8 +8,10 @@
     "url": "git+https://github.com/armhil/easy-code-formatter-styles.git"
   },
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
+  "pre-commit": "test",
   "keywords": [
     "syntax",
     "highlighting",
@@ -27,7 +29,10 @@
   "homepage": "https://github.com/armhil/easy-code-formatter-styles#readme",
   "devDependencies": {
     "@types/jest": "^28.1.1",
+    "@types/shelljs": "^0.8.11",
     "jest": "^28.1.1",
+    "pre-commit": "^1.2.2",
+    "shelljs": "^0.8.5",
     "ts-jest": "^28.0.4",
     "typescript": "^4.7.3"
   }
