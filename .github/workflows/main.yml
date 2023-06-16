@@ -4,9 +4,9 @@ name: Main CI | Build, Test and NPM Publish
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
+  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,9 +26,13 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.3.0
       - run: npm ci
-      - run: npm test
+      - run: npm test -- --coverage
       - run: tsc
         
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+          env: CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
       # Typescript build
       #- name: TypeScript build
       #  uses: FuLagann/tsc-build-push@v1
