@@ -21,9 +21,9 @@ You can download it from [AppSource](https://appsource.microsoft.com/en/product/
 
 Formatted code with `Default` style. | with `Desert style`
 :-------------------------:|:-------------------------:
-![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/default.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/desert.png)
+![](https://github.com/armhil/easy-code-formatter-styles/blob/main/img/default.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/main/img/desert.png)
 
 
 Formatted code with `A11YDark` style. | with `A11YLight style`
 :-------------------------:|:-------------------------:
-![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/a11ydark.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/master/img/a11ylight.png)
+![](https://github.com/armhil/easy-code-formatter-styles/blob/main/img/a11ydark.png)  |  ![](https://github.com/armhil/easy-code-formatter-styles/blob/main/img/a11ylight.png)
