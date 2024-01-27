@@ -1,6 +1,6 @@
 {
   "name": "easy-code-formatter-styles",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "a package which contains the styling details for easy code formatter office app.",
   "main": "dist/index.js",
   "repository": {
