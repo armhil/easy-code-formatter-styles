@@ -7,55 +7,55 @@ import { A11YDark } from './A11YDark';
 import { A11YLight } from './A11YLight';
 import { AtelierCaveLight } from './AtelierCaveLight';
 import { AtelierCaveDark } from './AtelierCaveDark';
-import { BlueHintGray } from  "./BlueHintGray";
+import { BlueHintGray } from './BlueHintGray';
 
 type ThemeDictionary = { [key: string]: ITheme };
 
 function MergeStyleProperties(object: IStyle) {
-	if (!object || !Object.keys(object)) {
-		return "";
-	}
+  if (!object || !Object.keys(object)) {
+    return "";
+  }
 
-	const styleNameMap: { [key: string]: string } = {
-		'Color': 'color:#',
-		'Background': 'background:',
-		'BackgroundColor': 'background-color:',
-		'FontWeight': 'font-weight:',
-		'FontStyle': 'font-style:'
-	};
+  const styleNameMap: { [key: string]: string } = {
+    'Color': 'color:#',
+    'Background': 'background:',
+    'BackgroundColor': 'background-color:',
+    'FontWeight': 'font-weight:',
+    'FontStyle': 'font-style:'
+  };
 
-	return Object.keys(object).reduce((p, c) => {
-		if ((c === 'BackgroundColor' || c==='Background') && object[c] !== 'none') {
-			return `${p}${styleNameMap[c]}#${object[c]};`;
-		}
-		return `${p}${styleNameMap[c]}${object[c]};`;
-	}, "");
+  return Object.keys(object).reduce((p, c) => {
+    if ((c === 'BackgroundColor' || c === 'Background') && object[c] !== 'none') {
+      return `${p}${styleNameMap[c]}#${object[c]};`;
+    }
+    return `${p}${styleNameMap[c]}${object[c]};`;
+  }, "");
 }
 
 export const Themes: ThemeDictionary = {
-	Default,
-	DefaultGray,
-	Desert,
-	Sunburst,
-	A11YDark,
-	A11YLight,
-	AtelierCaveLight,
-	AtelierCaveDark,
-	BlueHintGray
+  Default,
+  DefaultGray,
+  Desert,
+  Sunburst,
+  A11YDark,
+  A11YLight,
+  AtelierCaveLight,
+  AtelierCaveDark,
+  BlueHintGray
 }
 
 export function GetLineNumberStyle(theme: string) {
-	if (!Themes[theme]) {
-		return "";
-	}
-	return MergeStyleProperties(Themes[theme].LineNumberStyle);
+  if (!Themes[theme]) {
+    return "";
+  }
+  return MergeStyleProperties(Themes[theme].LineNumberStyle);
 }
 
 export function GetBackgroundStyle(theme: string) {
-	if (!Themes[theme]) {
-		return "";
-	}
-	return MergeStyleProperties(Themes[theme].BackgroundStyle);
+  if (!Themes[theme]) {
+    return "";
+  }
+  return MergeStyleProperties(Themes[theme].BackgroundStyle);
 }
 
 /**
@@ -65,8 +65,8 @@ export function GetBackgroundStyle(theme: string) {
  * @returns string
  */
 export function GetGenericStyle(theme: string, styleName: string): string {
-	if (!Themes[theme]) {
-		return "";
-	}
-	return MergeStyleProperties(Themes[theme].CodeStyles[styleName])
+  if (!Themes[theme]) {
+    return "";
+  }
+  return MergeStyleProperties(Themes[theme].CodeStyles[styleName])
 }
