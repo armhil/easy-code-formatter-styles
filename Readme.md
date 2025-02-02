@@ -5,7 +5,7 @@
 
 Since the original release of [Easy Code Formatter](https://appsource.microsoft.com/en/product/office/WA104382008?tab=Overview), I've received a lot of requests around extending the support for the styles and this is an attempt to do that.
 
-Bumping `package.json` version automatically is not there yet, so make sure your Pull Request includes a version bump, otherwise the tests would fail and you can't publish a new version.
+When you send a PR, the pipeline will automatically bump the package.json version if it's not bumped.
 
 ### How to add a new style
 

@@ -1,6 +1,6 @@
 {
   "name": "easy-code-formatter-styles",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "a package which contains the styling details for easy code formatter office app.",
   "main": "dist/index.js",
   "repository": {
@@ -11,7 +11,6 @@
     "build": "tsc",
     "test": "jest"
   },
-  "pre-commit": "test",
   "keywords": [
     "syntax",
     "highlighting",
@@ -35,6 +34,7 @@
     "pre-commit": "^1.2.2",
     "shelljs": "^0.8.5",
     "ts-jest": "^29.1.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "@types/node": "^22.13.0"
   }
 }
