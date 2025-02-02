@@ -11,7 +11,6 @@
     "build": "tsc",
     "test": "jest"
   },
-  "pre-commit": "test",
   "keywords": [
     "syntax",
     "highlighting",
