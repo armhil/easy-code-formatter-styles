@@ -1,5 +1,6 @@
 import { ITheme } from "./ITheme";
 
+/** Added White text due to dark background */
 export const ChatGPTStyleDark: ITheme = {
     /** Display name */
     DisplayName: 'ChatGPT Style Dark',
