@@ -1,9 +1,9 @@
 import { ITheme } from "./ITheme";
 
 /** Added White text due to dark background */
-export const ChatGPTStyleDark: ITheme = {
+export const ChatGPTDark: ITheme = {
     /** Display name */
-    DisplayName: 'ChatGPT Style Dark',
+    DisplayName: 'ChatGPT Dark',
     /** Code styles */
     CodeStyles: {
         Keyword: {
@@ -49,7 +49,7 @@ export const ChatGPTStyleDark: ITheme = {
     },
     // Background color
     BackgroundStyle: {
-        BackgroundColor: '2D2E41' // Dark background (near black)
+        BackgroundColor: '2d2e41' // Dark background (near black)
     },
     // Line number background colors
     LineNumberStyle: {
