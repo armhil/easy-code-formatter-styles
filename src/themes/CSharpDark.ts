@@ -2,7 +2,7 @@ import { ITheme } from "./ITheme";
 
 export const CSharpDark: ITheme = {
   /** Display name */
-  DisplayName: 'CSharpDark',
+  DisplayName: 'C# Dark',
   /** Code styles */
   CodeStyles: {
     Keyword: {
