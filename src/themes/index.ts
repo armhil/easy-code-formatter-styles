@@ -8,6 +8,7 @@ import { A11YLight } from './A11YLight';
 import { AtelierCaveLight } from './AtelierCaveLight';
 import { AtelierCaveDark } from './AtelierCaveDark';
 import { BlueHintGray } from './BlueHintGray';
+import { CSharpDark } from './CSharpDark';
 import { ChatGPTDark } from './ChatGPTDark';
 
 type ThemeDictionary = { [key: string]: ITheme };
@@ -43,6 +44,7 @@ export const Themes: ThemeDictionary = {
   AtelierCaveLight,
   AtelierCaveDark,
   BlueHintGray,
+  CSharpDark,
   ChatGPTDark
 }
 
