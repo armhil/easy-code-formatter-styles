@@ -1,8 +1,8 @@
 import { ITheme } from "./ITheme";
 
-export const csharpDark: ITheme = {
+export const CSharpDark: ITheme = {
   /** Display name */
-  DisplayName: 'csharpDark',
+  DisplayName: 'CSharpDark',
   /** Code styles */
   CodeStyles: {
     Keyword: {
@@ -49,6 +49,6 @@ export const csharpDark: ITheme = {
   },
   // Line number background colors
   LineNumberStyle: {
-    Color: 'e0e0e0
+    Color: 'e0e0e0'
   }
 }
