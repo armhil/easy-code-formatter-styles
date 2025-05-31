@@ -9,6 +9,7 @@ import { AtelierCaveLight } from './AtelierCaveLight';
 import { AtelierCaveDark } from './AtelierCaveDark';
 import { BlueHintGray } from './BlueHintGray';
 import { CSharpDark } from './CSharpDark';
+import { ChatGPTDark } from './ChatGPTDark';
 
 type ThemeDictionary = { [key: string]: ITheme };
 
@@ -43,7 +44,8 @@ export const Themes: ThemeDictionary = {
   AtelierCaveLight,
   AtelierCaveDark,
   BlueHintGray,
-  CSharpDark
+  CSharpDark,
+  ChatGPTDark
 }
 
 export function GetLineNumberStyle(theme: string) {

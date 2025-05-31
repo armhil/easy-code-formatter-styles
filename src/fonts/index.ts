@@ -10,5 +10,6 @@ export const Fonts = [
   'Candara',
   'Geneva',
   'Calibri',
-  'Cascadia'
+  'Cascadia',
+  'Intel'
 ];
