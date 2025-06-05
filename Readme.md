@@ -1,3 +1,5 @@
+# Hi
+
 # easy-code-formatter-styles
 
 [![Main CI | Build, Test and NPM Publish](https://github.com/armhil/easy-code-formatter-styles/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/armhil/easy-code-formatter-styles/actions/workflows/main.yml)
