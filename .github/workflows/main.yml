@@ -36,6 +36,6 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
 
       - uses: JS-DevTools/npm-publish@v1
-        if: contains(github.event.head_commit.message, "publish")
+        if: contains(github.event.head_commit.message, 'publish')
         with:
           token: ${{ secrets.NPM_TOKEN }}
