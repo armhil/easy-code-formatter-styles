@@ -29,13 +29,14 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: tsc
+      - run: npx eslint .
 
       - name: Automated Version Bump
         uses: phips28/gh-action-bump-version@v11.0.7
         env:
           GITHUB_TOKEN: ${{ secrets.PACKAGEBUMP_TOKEN }}
         with:
-          minor-wording: 'MINOR'
+          minor-wording: 'bumpversion,minor,update'
           major-wording: 'MAJOR'
           patch-wording: 'patch,fixes,add,Adds,new'
 
