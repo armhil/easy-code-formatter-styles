@@ -11,5 +11,5 @@ export const Fonts = [
   'Geneva',
   'Calibri',
   'Cascadia',
-  'Intel'
+  'Intel',
 ];

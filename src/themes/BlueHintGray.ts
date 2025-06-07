@@ -1,4 +1,4 @@
-import { ITheme } from "./ITheme";
+import { ITheme } from './ITheme';
 
 export const BlueHintGray: ITheme = {
   /** Display name */
@@ -6,36 +6,36 @@ export const BlueHintGray: ITheme = {
   /** Code styles */
   CodeStyles: {
     Keyword: {
-      Color: '0000ff'
+      Color: '0000ff',
     },
     Comment: {
-      Color: '008000'
+      Color: '008000',
     },
     Plaintext: {
-      Color: '000'
+      Color: '000',
     },
     Punctuation: {
-      Color: '000'
+      Color: '000',
     },
     String: {
-      Color: 'a31515'
+      Color: 'a31515',
     },
     Literal: {
-      Color: '066'
+      Color: '066',
     },
     Type: {
-      Color: '2b91af'
+      Color: '2b91af',
     },
     Tag: {
-      Color: '2b91af'
+      Color: '2b91af',
     },
   },
   // Background color
   BackgroundStyle: {
-    BackgroundColor: 'eaeaea'
+    BackgroundColor: 'eaeaea',
   },
   // Line number background colors
   LineNumberStyle: {
-    Background: 'none'
-  }
-}
+    Background: 'none',
+  },
+};

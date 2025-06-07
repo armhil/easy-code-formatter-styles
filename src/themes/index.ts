@@ -1,4 +1,4 @@
-import { ITheme, ICodeStyle, IStyle } from './ITheme';
+import { ITheme, IStyle } from './ITheme';
 import { Default } from './Default';
 import { DefaultGray } from './DefaultGray';
 import { Desert } from './Desert';
@@ -16,23 +16,26 @@ type ThemeDictionary = { [key: string]: ITheme };
 
 function MergeStyleProperties(object: IStyle) {
   if (!object || !Object.keys(object)) {
-    return "";
+    return '';
   }
 
   const styleNameMap: { [key: string]: string } = {
-    'Color': 'color:#',
-    'Background': 'background:',
-    'BackgroundColor': 'background-color:',
-    'FontWeight': 'font-weight:',
-    'FontStyle': 'font-style:'
+    Color: 'color:#',
+    Background: 'background:',
+    BackgroundColor: 'background-color:',
+    FontWeight: 'font-weight:',
+    FontStyle: 'font-style:',
   };
 
   return Object.keys(object).reduce((p, c) => {
-    if ((c === 'BackgroundColor' || c === 'Background') && object[c] !== 'none') {
+    if (
+      (c === 'BackgroundColor' || c === 'Background') &&
+      object[c] !== 'none'
+    ) {
       return `${p}${styleNameMap[c]}#${object[c]};`;
     }
     return `${p}${styleNameMap[c]}${object[c]};`;
-  }, "");
+  }, '');
 }
 
 export const Themes: ThemeDictionary = {
@@ -47,19 +50,19 @@ export const Themes: ThemeDictionary = {
   BlueHintGray,
   CSharpDark,
   ChatGPTDark,
-  ThonnyDefaultLight
-}
+  ThonnyDefaultLight,
+};
 
 export function GetLineNumberStyle(theme: string) {
   if (!Themes[theme]) {
-    return "";
+    return '';
   }
   return MergeStyleProperties(Themes[theme].LineNumberStyle);
 }
 
 export function GetBackgroundStyle(theme: string) {
   if (!Themes[theme]) {
-    return "";
+    return '';
   }
   return MergeStyleProperties(Themes[theme].BackgroundStyle);
 }
@@ -72,7 +75,7 @@ export function GetBackgroundStyle(theme: string) {
  */
 export function GetGenericStyle(theme: string, styleName: string): string {
   if (!Themes[theme]) {
-    return "";
+    return '';
   }
-  return MergeStyleProperties(Themes[theme].CodeStyles[styleName])
+  return MergeStyleProperties(Themes[theme].CodeStyles[styleName]);
 }

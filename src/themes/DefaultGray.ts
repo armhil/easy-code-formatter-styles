@@ -1,4 +1,4 @@
-import { ITheme } from "./ITheme";
+import { ITheme } from './ITheme';
 
 export const DefaultGray: ITheme = {
   /** Display name */
@@ -6,33 +6,33 @@ export const DefaultGray: ITheme = {
   /** Code styles */
   CodeStyles: {
     Keyword: {
-      Color: '008'
+      Color: '008',
     },
     Comment: {
-      Color: '800'
+      Color: '800',
     },
     Plaintext: {
-      Color: '000'
+      Color: '000',
     },
     Punctuation: {
-      Color: '660'
+      Color: '660',
     },
     String: {
-      Color: '080'
+      Color: '080',
     },
     Literal: {
-      Color: '066'
+      Color: '066',
     },
     Type: {
-      Color: '606'
-    }
+      Color: '606',
+    },
   },
   // Background color
   BackgroundStyle: {
-    BackgroundColor: 'ececec'
+    BackgroundColor: 'ececec',
   },
   // Line number background colors
   LineNumberStyle: {
-    Background: 'none'
-  }
+    Background: 'none',
+  },
 };

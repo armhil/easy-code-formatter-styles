@@ -28,6 +28,7 @@ jobs:
       - run: npm ci
       - run: npm test -- --coverage
       - run: tsc
+      - run: npx eslint .
         
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
@@ -39,5 +40,6 @@ jobs:
       #  uses: FuLagann/tsc-build-push@v1
       # Publish NPM package
       - uses: JS-DevTools/npm-publish@v1
+        if: !contains(github.event.head_commit.message, 'skippublish')
         with:
           token: ${{ secrets.NPM_TOKEN }}

@@ -1,57 +1,57 @@
 /**
  * ITheme.ts
- * 
+ *
  * an interface defining the styling.
  */
 
 export interface IStyle {
-  [key: string]: string,
+  [key: string]: string;
   /** Color */
-  Color?: string,
+  Color?: string;
   /** Background color */
-  BackgroundColor?: string,
+  BackgroundColor?: string;
   /** Font weight */
-  FontWeight?: string,
+  FontWeight?: string;
   /** Font style */
-  FontStyle?: string
+  FontStyle?: string;
 }
 
 export interface ICodeStyle {
-  [key: string]: IStyle,
+  [key: string]: IStyle;
   /** Keyword styles in code */
-  Keyword: IStyle,
+  Keyword: IStyle;
   /** Comment styles in code */
-  Comment: IStyle,
+  Comment: IStyle;
   /** Plaintext styles in code */
-  Plaintext: IStyle,
+  Plaintext: IStyle;
   /** Punctuation styles in code */
-  Punctuation: IStyle,
+  Punctuation: IStyle;
   /** String styles in code */
-  String: IStyle,
+  String: IStyle;
   /** Literal styles in code */
-  Literal: IStyle,
+  Literal: IStyle;
   /** Type styles in code */
-  Type: IStyle,
+  Type: IStyle;
   /** Tag styles in code */
-  Tag?: IStyle,
+  Tag?: IStyle;
   /** Attribute name styles in code */
-  AttributeName?: IStyle,
+  AttributeName?: IStyle;
   /** Attribute value styles in code */
-  AttributeValue?: IStyle,
+  AttributeValue?: IStyle;
   /** Decimal styles in code */
-  Decimal?: IStyle,
+  Decimal?: IStyle;
   /** No code styles in code */
-  NoCode?: IStyle
+  NoCode?: IStyle;
 }
 
 export interface ITheme {
-  [key: string]: ICodeStyle | IStyle | string,
+  [key: string]: ICodeStyle | IStyle | string;
   /** Display name */
-  DisplayName: string,
+  DisplayName: string;
   /** Code styles */
-  CodeStyles: ICodeStyle,
+  CodeStyles: ICodeStyle;
   /** Background styles */
-  BackgroundStyle: IStyle,
+  BackgroundStyle: IStyle;
   /** Line number styles */
-  LineNumberStyle: IStyle
+  LineNumberStyle: IStyle;
 }
