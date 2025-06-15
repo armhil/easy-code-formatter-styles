@@ -9,7 +9,7 @@ When you send a PR, the pipeline will automatically bump the package.json versio
 
 ### How to add a new style
 
-Add a new `.ts` file with your style name which implements the `ITheme` interface - export it the same way the rest of the styles are being exported.
+Add a new `.ts` file with your style name which implements the `ITheme` interface - export it the same way the rest of the styles are being exported. Don't forget to add it to the `index.ts` file.
 Make sure to run
 
 ```bash
