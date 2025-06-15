@@ -1,11 +1,13 @@
 {
-	"compilerOptions": {
-		"outDir": "./dist",
-		"target": "ES6",
-		"sourceMap": false,
-		"noImplicitAny": true,
-		"moduleResolution": "Node",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
     "esModuleInterop": true,
-    "resolveJsonModule": true
-	}
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
+  }
 }
