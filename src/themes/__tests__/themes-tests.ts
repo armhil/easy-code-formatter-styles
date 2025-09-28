@@ -71,8 +71,8 @@ describe('GetGenericStyle tests', () => {
   it.each([
     [undefined, undefined, ''],
     ['A11YDark', undefined, ''],
-    ['A11YDark', 'AttributeName', 'color:#ffd700;font-weight:bold;'],
-    ['A11YDark', 'NoCode', 'color:#000;background-color:none;'],
+    ['A11YDark', 'AttributeName', 'color:#ffd700;'],
+    ['A11YDark', 'NoCode', 'color:#ffa07a;'],
     ['AtelierCaveLight', 'AttributeName', 'color:#759731;font-weight:bold;'],
     ['Sunburst', 'Comment', 'color:#aeaeae;font-style:italic;'],
   ])(

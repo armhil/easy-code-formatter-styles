@@ -1,12 +1,11 @@
 import { ITheme } from './ITheme';
 
 export const A11YLight: ITheme = {
-  /** Display name */
   DisplayName: 'A11YLight',
-  /** Code styles */
   CodeStyles: {
     Keyword: {
       Color: '7928a1',
+      FontWeight: 'bold',
     },
     Comment: {
       Color: '696969',
@@ -21,36 +20,30 @@ export const A11YLight: ITheme = {
       Color: '008000',
     },
     Literal: {
-      Color: 'aa5d00',
+      Color: '008000',
     },
     Type: {
       Color: '007faa',
     },
     Tag: {
-      Color: '007faa',
+      Color: '7928a1',
+      FontWeight: 'bold',
     },
     AttributeName: {
       Color: 'aa5d00',
-      FontWeight: 'bold',
-    },
-    AttributeValue: {
-      Color: '008000',
     },
     Decimal: {
       Color: 'aa5d00',
     },
     NoCode: {
-      Color: '000',
-      BackgroundColor: 'none',
+      Color: 'd91e18',
     },
   },
-  // Background color
   BackgroundStyle: {
     BackgroundColor: 'fefefe',
   },
-  // Line number background colors
   LineNumberStyle: {
-    Color: '000',
-    Background: 'none',
+    Color: '545454',
+    BackgroundColor: 'fefefe',
   },
 };
