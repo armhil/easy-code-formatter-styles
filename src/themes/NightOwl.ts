@@ -41,7 +41,7 @@ export const NightOwl: ITheme = {
     NoCode: {
       Color: 'ef5350',
       FontStyle: 'italic',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '011627',

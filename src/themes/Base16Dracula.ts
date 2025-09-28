@@ -37,7 +37,7 @@ export const Base16Dracula: ITheme = {
     },
     NoCode: {
       Color: 'ea51b2',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '4d4f68',

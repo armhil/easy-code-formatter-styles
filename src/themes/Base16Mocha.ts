@@ -37,7 +37,7 @@ export const Base16Mocha: ITheme = {
     },
     NoCode: {
       Color: 'cb6077',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '645240',

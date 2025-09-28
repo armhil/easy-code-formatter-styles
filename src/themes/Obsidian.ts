@@ -39,7 +39,7 @@ export const Obsidian: ITheme = {
     },
     NoCode: {
       Color: '818e96',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '282b2e',

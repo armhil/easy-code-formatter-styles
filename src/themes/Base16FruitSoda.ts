@@ -37,7 +37,7 @@ export const Base16FruitSoda: ITheme = {
     },
     NoCode: {
       Color: 'fe3e31',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd8d5d5',

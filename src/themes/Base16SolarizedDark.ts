@@ -37,7 +37,7 @@ export const Base16SolarizedDark: ITheme = {
     },
     NoCode: {
       Color: 'dc322f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '586e75',

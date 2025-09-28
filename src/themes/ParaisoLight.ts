@@ -35,7 +35,7 @@ export const ParaisoLight: ITheme = {
     },
     NoCode: {
       Color: 'f99b15',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'e7e9db',

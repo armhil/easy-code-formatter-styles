@@ -37,7 +37,7 @@ export const A11YLight: ITheme = {
     },
     NoCode: {
       Color: 'd91e18',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fefefe',

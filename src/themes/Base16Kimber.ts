@@ -37,7 +37,7 @@ export const Base16Kimber: ITheme = {
     },
     NoCode: {
       Color: 'c88c8c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '555d55',

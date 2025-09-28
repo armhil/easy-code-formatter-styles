@@ -37,7 +37,7 @@ export const Base16Summercamp: ITheme = {
     },
     NoCode: {
       Color: 'e35142',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '3a3527',

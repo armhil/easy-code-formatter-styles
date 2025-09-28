@@ -41,7 +41,7 @@ export const Agate: ITheme = {
     NoCode: {
       Color: 'fff',
       BackgroundColor: 'fc9b9b',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '555',

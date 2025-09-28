@@ -37,7 +37,7 @@ export const Base16AtelierHeath: ITheme = {
     },
     NoCode: {
       Color: 'ca402b',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '695d69',

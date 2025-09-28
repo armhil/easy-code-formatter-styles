@@ -37,7 +37,7 @@ export const Base16AtelierLakesideLight: ITheme = {
     },
     NoCode: {
       Color: 'd22d72',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '7ea2b4',

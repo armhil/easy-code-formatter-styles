@@ -37,7 +37,7 @@ export const Base16MexicoLight: ITheme = {
     },
     NoCode: {
       Color: 'ab4642',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd8d8d8',

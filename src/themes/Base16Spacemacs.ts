@@ -37,7 +37,7 @@ export const Base16Spacemacs: ITheme = {
     },
     NoCode: {
       Color: 'f2241f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '444155',

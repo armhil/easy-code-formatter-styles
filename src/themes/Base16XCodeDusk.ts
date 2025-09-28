@@ -37,7 +37,7 @@ export const Base16XCodeDusk: ITheme = {
     },
     NoCode: {
       Color: 'b21889',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '53555d',

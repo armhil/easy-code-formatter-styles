@@ -37,7 +37,7 @@ export const Base16Github: ITheme = {
     },
     NoCode: {
       Color: 'ed6a43',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'c8c8fa',

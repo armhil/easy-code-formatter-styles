@@ -36,7 +36,7 @@ export const Pojoaque: ITheme = {
     },
     NoCode: {
       Color: 'dc322f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '181914',

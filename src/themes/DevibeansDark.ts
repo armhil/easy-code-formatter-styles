@@ -35,7 +35,7 @@ export const DevibeansDark: ITheme = {
     },
     NoCode: {
       Color: '558b2f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '000000',

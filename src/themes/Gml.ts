@@ -36,7 +36,7 @@ export const Gml: ITheme = {
     },
     NoCode: {
       Color: 'c0c0c0',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '222222',

@@ -37,7 +37,7 @@ export const Base16Nova: ITheme = {
     },
     NoCode: {
       Color: '83afe5',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '6a7d89',

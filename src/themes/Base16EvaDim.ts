@@ -37,7 +37,7 @@ export const Base16EvaDim: ITheme = {
     },
     NoCode: {
       Color: 'c4676c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '4b6988',

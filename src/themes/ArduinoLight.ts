@@ -36,7 +36,7 @@ export const ArduinoLight: ITheme = {
     },
     NoCode: {
       Color: '005c5f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffff',

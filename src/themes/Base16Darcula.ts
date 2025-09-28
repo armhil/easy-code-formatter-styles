@@ -37,7 +37,7 @@ export const Base16Darcula: ITheme = {
     },
     NoCode: {
       Color: '4eade5',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '323232',

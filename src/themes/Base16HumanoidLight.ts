@@ -37,7 +37,7 @@ export const Base16HumanoidLight: ITheme = {
     },
     NoCode: {
       Color: 'b0151a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'deded8',

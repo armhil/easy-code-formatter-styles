@@ -37,7 +37,7 @@ export const Base16Brewer: ITheme = {
     },
     NoCode: {
       Color: 'e31a1c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '515253',

@@ -38,7 +38,7 @@ export const SunburstHighlight: ITheme = {
     NoCode: {
       Color: 'f8f8f8',
       BackgroundColor: '420e09',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '000',

@@ -37,7 +37,7 @@ export const Base16AtelierEstuary: ITheme = {
     },
     NoCode: {
       Color: 'ba6236',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5f5e4e',

@@ -41,7 +41,7 @@ export const IsblEditorDark: ITheme = {
     },
     NoCode: {
       Color: 'f0f0f0',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '404040',

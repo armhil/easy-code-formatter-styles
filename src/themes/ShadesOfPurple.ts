@@ -40,7 +40,7 @@ export const ShadesOfPurple: ITheme = {
     },
     NoCode: {
       Color: '4cd213',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2d2b57',

@@ -37,7 +37,7 @@ export const Base16RosPineDawn: ITheme = {
     },
     NoCode: {
       Color: '1f1d2e',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f2e9de',

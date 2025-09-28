@@ -37,7 +37,7 @@ export const Base16Nebula: ITheme = {
     },
     NoCode: {
       Color: '777abc',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5a8380',

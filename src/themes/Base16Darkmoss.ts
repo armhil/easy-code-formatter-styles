@@ -37,7 +37,7 @@ export const Base16Darkmoss: ITheme = {
     },
     NoCode: {
       Color: 'ff4658',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '373c3d',

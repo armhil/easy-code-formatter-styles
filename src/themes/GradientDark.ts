@@ -39,7 +39,7 @@ export const GradientDark: ITheme = {
     },
     NoCode: {
       Color: 'ff9e44',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '652487',

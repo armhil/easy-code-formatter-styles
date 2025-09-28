@@ -37,7 +37,7 @@ export const Base16Qualia: ITheme = {
     },
     NoCode: {
       Color: 'efa6a2',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '454545',

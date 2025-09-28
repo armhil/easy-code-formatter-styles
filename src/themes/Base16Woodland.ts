@@ -37,7 +37,7 @@ export const Base16Woodland: ITheme = {
     },
     NoCode: {
       Color: 'd35c5c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '48413a',

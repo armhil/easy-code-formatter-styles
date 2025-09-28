@@ -39,7 +39,7 @@ export const GradientLight: ITheme = {
     },
     NoCode: {
       Color: 'ad13ff',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f9ccff',

@@ -37,7 +37,7 @@ export const Base16WindowsNTLight: ITheme = {
     },
     NoCode: {
       Color: '800000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd5d5d5',

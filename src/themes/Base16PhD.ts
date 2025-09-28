@@ -37,7 +37,7 @@ export const Base16PhD: ITheme = {
     },
     NoCode: {
       Color: 'd07346',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '4d5666',

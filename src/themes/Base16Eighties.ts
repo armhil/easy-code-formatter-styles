@@ -37,7 +37,7 @@ export const Base16Eighties: ITheme = {
     },
     NoCode: {
       Color: 'f2777a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '515151',

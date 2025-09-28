@@ -37,7 +37,7 @@ export const Base16SummerfruitDark: ITheme = {
     },
     NoCode: {
       Color: 'ff0086',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '303030',

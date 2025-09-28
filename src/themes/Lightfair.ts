@@ -40,7 +40,7 @@ export const Lightfair: ITheme = {
     },
     NoCode: {
       Color: '4286f4',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fff',

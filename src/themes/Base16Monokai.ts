@@ -37,7 +37,7 @@ export const Base16Monokai: ITheme = {
     },
     NoCode: {
       Color: 'f92672',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '49483e',

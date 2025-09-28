@@ -36,7 +36,7 @@ export const Dark: ITheme = {
     },
     NoCode: {
       Color: '979797',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '303030',

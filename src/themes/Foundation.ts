@@ -37,7 +37,7 @@ export const Foundation: ITheme = {
     },
     NoCode: {
       Color: 'd14',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'eee',

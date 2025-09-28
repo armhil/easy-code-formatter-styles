@@ -37,7 +37,7 @@ export const Base16AtelierSavanna: ITheme = {
     },
     NoCode: {
       Color: 'b16139',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '526057',

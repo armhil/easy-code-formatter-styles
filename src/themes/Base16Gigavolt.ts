@@ -37,7 +37,7 @@ export const Base16Gigavolt: ITheme = {
     },
     NoCode: {
       Color: 'ff661a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5a576e',

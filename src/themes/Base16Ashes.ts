@@ -37,7 +37,7 @@ export const Base16Ashes: ITheme = {
     },
     NoCode: {
       Color: 'c7ae95',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '565e65',

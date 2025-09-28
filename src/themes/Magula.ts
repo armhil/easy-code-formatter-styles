@@ -38,7 +38,7 @@ export const Magula: ITheme = {
     },
     NoCode: {
       Color: '00e',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f4f4f4',

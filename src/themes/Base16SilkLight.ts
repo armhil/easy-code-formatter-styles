@@ -37,7 +37,7 @@ export const Base16SilkLight: ITheme = {
     },
     NoCode: {
       Color: 'cf432e',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '90b7b6',

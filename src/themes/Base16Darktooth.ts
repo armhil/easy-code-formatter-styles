@@ -37,7 +37,7 @@ export const Base16Darktooth: ITheme = {
     },
     NoCode: {
       Color: 'fb543f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '504945',

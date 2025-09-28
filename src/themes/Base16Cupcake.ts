@@ -37,7 +37,7 @@ export const Base16Cupcake: ITheme = {
     },
     NoCode: {
       Color: 'd57e85',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd8d5dd',

@@ -37,7 +37,7 @@ export const Base16Vulcan: ITheme = {
     },
     NoCode: {
       Color: '818591',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '003552',

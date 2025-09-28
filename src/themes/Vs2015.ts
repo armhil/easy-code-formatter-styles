@@ -38,7 +38,7 @@ export const Vs2015: ITheme = {
     NoCode: {
       Color: 'dcdcdc',
       BackgroundColor: '600',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '1e1e1e',

@@ -36,7 +36,7 @@ export const QtcreatorLight: ITheme = {
     },
     NoCode: {
       Color: '008000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffff',

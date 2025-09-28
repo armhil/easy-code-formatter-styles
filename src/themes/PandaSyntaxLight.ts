@@ -36,7 +36,7 @@ export const PandaSyntaxLight: ITheme = {
     },
     NoCode: {
       Color: '3787c7',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'e6e6e6',

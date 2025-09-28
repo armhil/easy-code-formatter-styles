@@ -36,7 +36,7 @@ export const AtomOneLight: ITheme = {
     },
     NoCode: {
       Color: 'e45649',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fafafa',

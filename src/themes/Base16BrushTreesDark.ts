@@ -37,7 +37,7 @@ export const Base16BrushTreesDark: ITheme = {
     },
     NoCode: {
       Color: 'b38686',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '6d828e',

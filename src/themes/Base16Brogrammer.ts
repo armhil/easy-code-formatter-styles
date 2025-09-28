@@ -37,7 +37,7 @@ export const Base16Brogrammer: ITheme = {
     },
     NoCode: {
       Color: 'd6dbe5',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2dc55e',

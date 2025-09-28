@@ -35,7 +35,7 @@ export const Srcery: ITheme = {
     },
     NoCode: {
       Color: 'ef2f27',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '1c1b19',

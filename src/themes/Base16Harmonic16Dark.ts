@@ -37,7 +37,7 @@ export const Base16Harmonic16Dark: ITheme = {
     },
     NoCode: {
       Color: 'bf8b56',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '405c79',

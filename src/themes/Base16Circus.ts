@@ -37,7 +37,7 @@ export const Base16Circus: ITheme = {
     },
     NoCode: {
       Color: 'dc657d',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '303030',

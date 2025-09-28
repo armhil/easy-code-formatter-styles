@@ -37,7 +37,7 @@ export const Base16Snazzy: ITheme = {
     },
     NoCode: {
       Color: 'ff5c57',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '43454f',

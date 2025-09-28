@@ -37,7 +37,7 @@ export const Base16SummerfruitLight: ITheme = {
     },
     NoCode: {
       Color: 'ff0086',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd0d0d0',

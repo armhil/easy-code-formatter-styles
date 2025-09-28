@@ -37,7 +37,7 @@ export const Base16Windows10Light: ITheme = {
     },
     NoCode: {
       Color: 'c50f1f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd9d9d9',

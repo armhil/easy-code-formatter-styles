@@ -37,7 +37,7 @@ export const Base16LondonTube: ITheme = {
     },
     NoCode: {
       Color: 'ee2e24',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5a5758',

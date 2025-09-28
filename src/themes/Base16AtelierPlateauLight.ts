@@ -37,7 +37,7 @@ export const Base16AtelierPlateauLight: ITheme = {
     },
     NoCode: {
       Color: 'ca4949',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '8a8585',

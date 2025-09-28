@@ -37,7 +37,7 @@ export const Base16Hopscotch: ITheme = {
     },
     NoCode: {
       Color: 'dd464c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5c545b',

@@ -37,7 +37,7 @@ export const Base16Pasque: ITheme = {
     },
     NoCode: {
       Color: 'a92258',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '3e2d5c',

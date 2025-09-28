@@ -35,7 +35,7 @@ export const StackOverflowLight: ITheme = {
     },
     NoCode: {
       Color: 'c02d2e',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f6f6f6',

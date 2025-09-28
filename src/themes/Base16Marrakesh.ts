@@ -37,7 +37,7 @@ export const Base16Marrakesh: ITheme = {
     },
     NoCode: {
       Color: 'c35359',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5f5b17',

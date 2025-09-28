@@ -37,7 +37,7 @@ export const Base16Porple: ITheme = {
     },
     NoCode: {
       Color: 'f84547',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '474160',

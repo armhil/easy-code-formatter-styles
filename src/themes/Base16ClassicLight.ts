@@ -37,7 +37,7 @@ export const Base16ClassicLight: ITheme = {
     },
     NoCode: {
       Color: 'ac4142',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd0d0d0',

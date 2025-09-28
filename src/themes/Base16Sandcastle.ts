@@ -37,7 +37,7 @@ export const Base16Sandcastle: ITheme = {
     },
     NoCode: {
       Color: '83a598',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '3e4451',

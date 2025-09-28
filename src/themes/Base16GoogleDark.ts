@@ -37,7 +37,7 @@ export const Base16GoogleDark: ITheme = {
     },
     NoCode: {
       Color: 'cc342b',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '373b41',

@@ -37,7 +37,7 @@ export const Base16SolarFlareLight: ITheme = {
     },
     NoCode: {
       Color: 'ef5253',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'a6afb8',

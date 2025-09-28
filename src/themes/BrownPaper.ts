@@ -36,7 +36,7 @@ export const BrownPaper: ITheme = {
     },
     NoCode: {
       Color: '802022',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'b7a68e',

@@ -37,7 +37,7 @@ export const Base16Sagelight: ITheme = {
     },
     NoCode: {
       Color: 'fa8480',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd8d8d8',

@@ -35,7 +35,7 @@ export const Androidstudio: ITheme = {
     },
     NoCode: {
       Color: 'cc7832',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '282b2e',

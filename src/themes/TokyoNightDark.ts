@@ -35,7 +35,7 @@ export const TokyoNightDark: ITheme = {
     },
     NoCode: {
       Color: '7dcfff',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '1a1b26',

@@ -37,7 +37,7 @@ export const Base16DefaultDark: ITheme = {
     },
     NoCode: {
       Color: 'ab4642',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '383838',

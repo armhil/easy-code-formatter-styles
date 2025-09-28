@@ -35,7 +35,7 @@ export const ColorBrewer: ITheme = {
     },
     NoCode: {
       Color: '88f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fff',

@@ -37,7 +37,7 @@ export const Base16Tango: ITheme = {
     },
     NoCode: {
       Color: 'cc0000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fce94f',

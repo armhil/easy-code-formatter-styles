@@ -35,7 +35,7 @@ export const Ascetic: ITheme = {
     },
     NoCode: {
       Color: 'ccc',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffff',

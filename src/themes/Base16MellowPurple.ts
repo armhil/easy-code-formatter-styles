@@ -37,7 +37,7 @@ export const Base16MellowPurple: ITheme = {
     },
     NoCode: {
       Color: '00d9e9',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '331354',

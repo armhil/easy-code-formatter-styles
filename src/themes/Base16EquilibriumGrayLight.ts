@@ -37,7 +37,7 @@ export const Base16EquilibriumGrayLight: ITheme = {
     },
     NoCode: {
       Color: 'd02023',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd4d4d4',

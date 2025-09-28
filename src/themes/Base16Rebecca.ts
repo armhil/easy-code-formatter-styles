@@ -37,7 +37,7 @@ export const Base16Rebecca: ITheme = {
     },
     NoCode: {
       Color: 'a0a0c5',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '383a62',

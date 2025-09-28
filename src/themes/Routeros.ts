@@ -39,7 +39,7 @@ export const Routeros: ITheme = {
     },
     NoCode: {
       Color: '880000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f0f0f0',

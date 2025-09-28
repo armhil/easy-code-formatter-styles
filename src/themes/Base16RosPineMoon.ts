@@ -37,7 +37,7 @@ export const Base16RosPineMoon: ITheme = {
     },
     NoCode: {
       Color: 'ecebf0',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '393552',

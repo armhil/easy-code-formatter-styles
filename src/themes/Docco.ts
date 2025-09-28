@@ -42,7 +42,7 @@ export const Docco: ITheme = {
     NoCode: {
       Color: '954121',
       BackgroundColor: 'fdd',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f8f8ff',

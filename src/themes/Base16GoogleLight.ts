@@ -37,7 +37,7 @@ export const Base16GoogleLight: ITheme = {
     },
     NoCode: {
       Color: 'cc342b',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'c5c8c6',

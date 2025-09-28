@@ -35,7 +35,7 @@ export const KimbieLight: ITheme = {
     },
     NoCode: {
       Color: 'f79a32',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fbebd4',

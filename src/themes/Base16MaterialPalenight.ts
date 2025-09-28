@@ -37,7 +37,7 @@ export const Base16MaterialPalenight: ITheme = {
     },
     NoCode: {
       Color: 'f07178',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '32374d',

@@ -37,7 +37,7 @@ export const Base16Apathy: ITheme = {
     },
     NoCode: {
       Color: '3e9688',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '184e45',

@@ -37,7 +37,7 @@ export const Base16Decaf: ITheme = {
     },
     NoCode: {
       Color: 'ff7f7b',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '515151',

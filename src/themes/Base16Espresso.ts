@@ -37,7 +37,7 @@ export const Base16Espresso: ITheme = {
     },
     NoCode: {
       Color: 'd25252',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '515151',

@@ -35,7 +35,7 @@ export const MonokaiSublime: ITheme = {
     },
     NoCode: {
       Color: '75715e',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '23241f',

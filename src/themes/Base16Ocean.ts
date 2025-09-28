@@ -37,7 +37,7 @@ export const Base16Ocean: ITheme = {
     },
     NoCode: {
       Color: 'bf616a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '4f5b66',

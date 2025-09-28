@@ -37,7 +37,7 @@ export const Base16Bespin: ITheme = {
     },
     NoCode: {
       Color: 'cf6a4c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5e5d5c',

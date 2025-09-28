@@ -35,7 +35,7 @@ export const IrBlack: ITheme = {
     },
     NoCode: {
       Color: 'ff73fd',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '000',

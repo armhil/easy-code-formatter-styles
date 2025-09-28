@@ -35,7 +35,7 @@ export const MonoBlue: ITheme = {
     },
     NoCode: {
       Color: '4c81c9',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'eaeef3',

@@ -37,7 +37,7 @@ export const Base16HorizonDark: ITheme = {
     },
     NoCode: {
       Color: 'e93c58',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2e303e',

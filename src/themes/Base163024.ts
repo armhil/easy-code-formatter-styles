@@ -37,7 +37,7 @@ export const Base163024: ITheme = {
     },
     NoCode: {
       Color: 'db2d20',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '4a4543',

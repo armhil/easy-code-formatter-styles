@@ -35,7 +35,7 @@ export const Hybrid: ITheme = {
     },
     NoCode: {
       Color: '8abeb7',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '373b41',

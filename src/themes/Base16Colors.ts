@@ -37,7 +37,7 @@ export const Base16Colors: ITheme = {
     },
     NoCode: {
       Color: 'ff4136',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '555555',

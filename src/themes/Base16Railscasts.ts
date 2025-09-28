@@ -37,7 +37,7 @@ export const Base16Railscasts: ITheme = {
     },
     NoCode: {
       Color: 'da4939',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '3a4055',

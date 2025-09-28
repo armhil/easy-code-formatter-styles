@@ -39,7 +39,7 @@ export const Monokai: ITheme = {
     },
     NoCode: {
       Color: '75715e',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '272822',

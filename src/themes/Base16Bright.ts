@@ -37,7 +37,7 @@ export const Base16Bright: ITheme = {
     },
     NoCode: {
       Color: 'fb0120',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '505050',

@@ -37,7 +37,7 @@ export const Base16Tender: ITheme = {
     },
     NoCode: {
       Color: 'f43753',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '484848',

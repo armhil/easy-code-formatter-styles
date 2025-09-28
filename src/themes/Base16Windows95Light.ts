@@ -37,7 +37,7 @@ export const Base16Windows95Light: ITheme = {
     },
     NoCode: {
       Color: 'a80000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'c4c4c4',

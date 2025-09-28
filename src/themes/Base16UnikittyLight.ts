@@ -37,7 +37,7 @@ export const Base16UnikittyLight: ITheme = {
     },
     NoCode: {
       Color: 'd8137f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'c4c3c5',

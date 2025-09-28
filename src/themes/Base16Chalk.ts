@@ -37,7 +37,7 @@ export const Base16Chalk: ITheme = {
     },
     NoCode: {
       Color: 'fb9fb1',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '303030',

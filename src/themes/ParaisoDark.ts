@@ -35,7 +35,7 @@ export const ParaisoDark: ITheme = {
     },
     NoCode: {
       Color: 'f99b15',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2f1e2e',

@@ -37,7 +37,7 @@ export const Base16SetiUI: ITheme = {
     },
     NoCode: {
       Color: 'cd3f45',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '3b758c',

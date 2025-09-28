@@ -37,7 +37,7 @@ export const Base16Tomorrow: ITheme = {
     },
     NoCode: {
       Color: 'c82829',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd6d6d6',

@@ -37,7 +37,7 @@ export const Base16AtelierForestLight: ITheme = {
     },
     NoCode: {
       Color: 'f22c40',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'a8a19f',

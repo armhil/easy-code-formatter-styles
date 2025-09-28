@@ -37,7 +37,7 @@ export const Base16Twilight: ITheme = {
     },
     NoCode: {
       Color: 'cf6a4c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '464b50',

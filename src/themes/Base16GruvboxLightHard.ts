@@ -37,7 +37,7 @@ export const Base16GruvboxLightHard: ITheme = {
     },
     NoCode: {
       Color: '9d0006',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd5c4a1',

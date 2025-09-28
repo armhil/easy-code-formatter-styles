@@ -37,7 +37,7 @@ export const Base16AtelierSeaside: ITheme = {
     },
     NoCode: {
       Color: 'e6193c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5e6e5e',

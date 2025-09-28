@@ -37,7 +37,7 @@ export const Base16Pico: ITheme = {
     },
     NoCode: {
       Color: 'ff004d',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '7e2553',

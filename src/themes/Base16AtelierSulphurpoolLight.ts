@@ -37,7 +37,7 @@ export const Base16AtelierSulphurpoolLight: ITheme = {
     },
     NoCode: {
       Color: 'c94922',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '979db4',

@@ -37,7 +37,7 @@ export const Base16Atlas: ITheme = {
     },
     NoCode: {
       Color: 'ff5a67',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '517f8d',

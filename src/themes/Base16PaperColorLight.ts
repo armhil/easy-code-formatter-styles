@@ -37,7 +37,7 @@ export const Base16PaperColorLight: ITheme = {
     },
     NoCode: {
       Color: 'bcbcbc',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '008700',

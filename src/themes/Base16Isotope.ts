@@ -37,7 +37,7 @@ export const Base16Isotope: ITheme = {
     },
     NoCode: {
       Color: 'ff0000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '606060',

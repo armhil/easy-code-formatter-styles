@@ -37,7 +37,7 @@ export const Base16Cupertino: ITheme = {
     },
     NoCode: {
       Color: 'c41a15',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'c0c0c0',

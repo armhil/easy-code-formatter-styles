@@ -38,7 +38,7 @@ export const Far: ITheme = {
     },
     NoCode: {
       Color: '888',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '000080',

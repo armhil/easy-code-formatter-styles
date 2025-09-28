@@ -37,7 +37,7 @@ export const Base16GreenScreen: ITheme = {
     },
     NoCode: {
       Color: '007700',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '005500',

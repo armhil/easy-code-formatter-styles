@@ -37,7 +37,7 @@ export const Base16GruvboxDarkMedium: ITheme = {
     },
     NoCode: {
       Color: 'fb4934',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '504945',

@@ -38,7 +38,7 @@ export const Nord: ITheme = {
     NoCode: {
       Color: 'd8dee9',
       BackgroundColor: 'bf616a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2e3440',

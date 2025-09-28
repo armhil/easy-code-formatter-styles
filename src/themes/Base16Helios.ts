@@ -37,7 +37,7 @@ export const Base16Helios: ITheme = {
     },
     NoCode: {
       Color: 'd72638',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '53585b',

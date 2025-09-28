@@ -37,7 +37,7 @@ export const Base16Zenburn: ITheme = {
     },
     NoCode: {
       Color: 'dca3a3',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '606060',

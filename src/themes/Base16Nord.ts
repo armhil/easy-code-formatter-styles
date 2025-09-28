@@ -37,7 +37,7 @@ export const Base16Nord: ITheme = {
     },
     NoCode: {
       Color: 'bf616a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '434c5e',

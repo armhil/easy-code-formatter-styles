@@ -37,7 +37,7 @@ export const Base16Paraiso: ITheme = {
     },
     NoCode: {
       Color: 'ef6155',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '4f424c',

@@ -37,7 +37,7 @@ export const Base16AtelierDune: ITheme = {
     },
     NoCode: {
       Color: 'd73737',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '6e6b5e',

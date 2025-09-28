@@ -38,7 +38,7 @@ export const XCode: ITheme = {
     NoCode: {
       Color: '000',
       BackgroundColor: 'ffc8bd',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fff',

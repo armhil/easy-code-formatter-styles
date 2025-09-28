@@ -50,7 +50,7 @@ export const Idea: ITheme = {
       Color: '000',
       FontWeight: 'normal',
       BackgroundColor: 'ffc8bd',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fff',

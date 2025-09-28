@@ -37,7 +37,7 @@ export const Base16WindowsHighContrastLight: ITheme = {
     },
     NoCode: {
       Color: '800000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd4d4d4',

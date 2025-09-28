@@ -37,7 +37,7 @@ export const Base16Dirtysea: ITheme = {
     },
     NoCode: {
       Color: '840000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'd0d0d0',

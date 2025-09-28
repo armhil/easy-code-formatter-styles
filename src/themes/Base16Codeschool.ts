@@ -37,7 +37,7 @@ export const Base16Codeschool: ITheme = {
     },
     NoCode: {
       Color: '2a5491',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2a343a',

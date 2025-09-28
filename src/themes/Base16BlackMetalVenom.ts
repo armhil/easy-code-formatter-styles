@@ -37,7 +37,7 @@ export const Base16BlackMetalVenom: ITheme = {
     },
     NoCode: {
       Color: '5f8787',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '222222',

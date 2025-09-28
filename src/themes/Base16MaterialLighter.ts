@@ -37,7 +37,7 @@ export const Base16MaterialLighter: ITheme = {
     },
     NoCode: {
       Color: 'ff5370',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'cceae7',

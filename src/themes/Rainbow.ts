@@ -38,7 +38,7 @@ export const Rainbow: ITheme = {
     },
     NoCode: {
       Color: 'dc322f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '474949',

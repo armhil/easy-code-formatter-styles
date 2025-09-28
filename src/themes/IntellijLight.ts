@@ -41,7 +41,7 @@ export const IntellijLight: ITheme = {
       Color: '000',
       FontWeight: 'normal',
       BackgroundColor: 'd6d6d6',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fff',

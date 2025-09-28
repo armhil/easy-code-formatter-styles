@@ -38,7 +38,7 @@ export const GitHub: ITheme = {
     NoCode: {
       Color: 'b31d28',
       BackgroundColor: 'ffeef0',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffff',

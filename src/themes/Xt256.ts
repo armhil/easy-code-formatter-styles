@@ -39,7 +39,7 @@ export const Xt256: ITheme = {
     },
     NoCode: {
       Color: 'eaeaea',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '000',

@@ -37,7 +37,7 @@ export const A11YDark: ITheme = {
     },
     NoCode: {
       Color: 'ffa07a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '2b2b2b',

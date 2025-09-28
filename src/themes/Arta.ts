@@ -37,7 +37,7 @@ export const Arta: ITheme = {
     },
     NoCode: {
       Color: 'bb1166',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '222',

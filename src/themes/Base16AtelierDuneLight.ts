@@ -37,7 +37,7 @@ export const Base16AtelierDuneLight: ITheme = {
     },
     NoCode: {
       Color: 'd73737',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'a6a28c',

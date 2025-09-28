@@ -37,7 +37,7 @@ export const Base16Macintosh: ITheme = {
     },
     NoCode: {
       Color: 'dd0907',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '404040',

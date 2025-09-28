@@ -37,7 +37,7 @@ export const Base16Shapeshifter: ITheme = {
     },
     NoCode: {
       Color: 'e92f2f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ababab',

@@ -42,7 +42,7 @@ export const Purebasic: ITheme = {
     },
     NoCode: {
       Color: '924b72',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffdf',

@@ -37,7 +37,7 @@ export const Base16MaterialVivid: ITheme = {
     },
     NoCode: {
       Color: 'f44336',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '323639',

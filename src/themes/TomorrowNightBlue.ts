@@ -35,7 +35,7 @@ export const TomorrowNightBlue: ITheme = {
     },
     NoCode: {
       Color: 'ff9da4',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '002451',

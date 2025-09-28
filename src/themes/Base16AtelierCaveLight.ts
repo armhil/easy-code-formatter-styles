@@ -37,7 +37,7 @@ export const Base16AtelierCaveLight: ITheme = {
     },
     NoCode: {
       Color: 'be4678',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '8b8792',

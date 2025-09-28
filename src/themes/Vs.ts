@@ -32,7 +32,7 @@ export const Vs: ITheme = {
     },
     NoCode: {
       Color: '2b91af',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffff',

@@ -35,7 +35,7 @@ export const Lioshi: ITheme = {
     },
     NoCode: {
       Color: 'de935f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '303030',

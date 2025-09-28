@@ -35,7 +35,7 @@ export const CodepenEmbed: ITheme = {
     },
     NoCode: {
       Color: 'ab875d',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '222',

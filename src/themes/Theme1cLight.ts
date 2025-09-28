@@ -35,7 +35,7 @@ export const Theme1cLight: ITheme = {
     },
     NoCode: {
       Color: '000000',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'ffffff',

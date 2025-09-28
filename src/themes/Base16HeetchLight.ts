@@ -37,7 +37,7 @@ export const Base16HeetchLight: ITheme = {
     },
     NoCode: {
       Color: '27d9d5',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '7b6d8b',

@@ -42,7 +42,7 @@ export const Grayscale: ITheme = {
       Color: 'fff',
       FontWeight: 'normal',
       Background: 'url(data:image/png',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'fff',

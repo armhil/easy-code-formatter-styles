@@ -510,7 +510,6 @@ export const Themes: ThemeDictionary = {
   Xt256,
 };
 
-
 function MergeStyleProperties(object: IStyle) {
   if (!object || !Object.keys(object)) {
     return '';

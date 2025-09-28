@@ -37,7 +37,7 @@ export const Base16Flat: ITheme = {
     },
     NoCode: {
       Color: 'e74c3c',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '7f8c8d',

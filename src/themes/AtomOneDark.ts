@@ -36,7 +36,7 @@ export const AtomOneDark: ITheme = {
     },
     NoCode: {
       Color: 'e06c75',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '282c34',

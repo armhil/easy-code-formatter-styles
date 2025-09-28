@@ -45,7 +45,7 @@ export const NnfxDark: ITheme = {
     NoCode: {
       Color: 'fff',
       BackgroundColor: 'c99',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '333',

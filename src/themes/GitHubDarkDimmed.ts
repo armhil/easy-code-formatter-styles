@@ -38,7 +38,7 @@ export const GitHubDarkDimmed: ITheme = {
     NoCode: {
       Color: 'ffd8d3',
       BackgroundColor: '78191b',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '22272e',

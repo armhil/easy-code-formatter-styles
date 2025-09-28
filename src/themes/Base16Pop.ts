@@ -37,7 +37,7 @@ export const Base16Pop: ITheme = {
     },
     NoCode: {
       Color: 'eb008a',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '303030',

@@ -37,7 +37,7 @@ export const Base16SynthMidnightTerminalDark: ITheme = {
     },
     NoCode: {
       Color: 'b53b50',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '28292a',

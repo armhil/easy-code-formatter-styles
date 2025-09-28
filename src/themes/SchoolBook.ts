@@ -36,7 +36,7 @@ export const SchoolBook: ITheme = {
     },
     NoCode: {
       Color: 'e60415',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: 'f6f5b2',

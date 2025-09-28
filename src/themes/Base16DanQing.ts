@@ -37,7 +37,7 @@ export const Base16DanQing: ITheme = {
     },
     NoCode: {
       Color: 'f9906f',
-    }
+    },
   },
   BackgroundStyle: {
     BackgroundColor: '5a605d',
