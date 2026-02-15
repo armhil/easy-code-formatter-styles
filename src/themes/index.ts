@@ -186,6 +186,7 @@ import { Base16WindowsNTLight } from './Base16WindowsNTLight';
 import { Base16Woodland } from './Base16Woodland';
 import { Base16XCodeDusk } from './Base16XCodeDusk';
 import { Base16Zenburn } from './Base16Zenburn';
+import { BlueHintGray } from './BlueHintGray';
 import { BrownPaper } from './BrownPaper';
 import { CodepenEmbed } from './CodepenEmbed';
 import { ColorBrewer } from './ColorBrewer';
@@ -444,6 +445,7 @@ export const Themes: ThemeDictionary = {
   Base16Woodland,
   Base16XCodeDusk,
   Base16Zenburn,
+  BlueHintGray,
   BrownPaper,
   CodepenEmbed,
   ColorBrewer,
