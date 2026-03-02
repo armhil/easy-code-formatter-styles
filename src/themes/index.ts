@@ -245,6 +245,8 @@ import { TokyoNightDark } from './TokyoNightDark';
 import { TokyoNightLight } from './TokyoNightLight';
 import { TomorrowNightBlue } from './TomorrowNightBlue';
 import { TomorrowNightBright } from './TomorrowNightBright';
+import { UeAuroraPopLight } from './UeAuroraPopLight';
+import { UeNeonCandyLight } from './UeNeonCandyLight';
 import { Vs } from './Vs';
 import { Vs2015 } from './Vs2015';
 import { XCode } from './XCode';
@@ -506,6 +508,8 @@ export const Themes: ThemeDictionary = {
   TokyoNightLight,
   TomorrowNightBlue,
   TomorrowNightBright,
+  UeAuroraPopLight,
+  UeNeonCandyLight,
   Vs,
   Vs2015,
   XCode,
